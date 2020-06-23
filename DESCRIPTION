@@ -1,0 +1,14 @@
+Package: alzheimersSyntheticData
+Type: Package
+Title: Synthetic Data Based Clinical Trials in Alzheimer's Dementia
+Version: 0.1.0
+Author: Harry Peaker
+Maintainer: Harry Peaker <harry.peaker@aridhia.com>
+Description: Generate synthetic data based on the longitudinal cohort studies on Alzheimer's dementia. 
+Imports: dplyr,
+  stringr
+License: TBC?
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
