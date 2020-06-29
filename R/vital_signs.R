@@ -27,3 +27,20 @@ vital_signs <- function(n, visit = "V1", ids = NULL) {
 
   return(df)
 }
+
+
+sample_height <- function(n) {
+  rnorm(n, mean = 170, sd = 10)
+}
+
+sample_weight <- function(n) {
+  rnorm(n, 80, sd = 5)
+}
+
+sample_hip_circumference <- function(n, height = NULL, weight = NULL) {
+  if(is.null(height) && is.null(weight)) {
+    rnorm(n, mean = 105, sd = 10)
+  }
+}
+
+
