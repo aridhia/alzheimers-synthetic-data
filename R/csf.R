@@ -30,10 +30,7 @@ csf <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
     ptau_reason_not_analysed = NA,
     ttau_reason_not_analysed = NA,
     abeta_1_42_reason_not_analysed = NA,
-    csf_sample_id = csf_sample_id,
-    csf_retest = NA,
-    csf_retest_reason = NA,
-    csf_retest_visit = NA
+    csf_sample_id = csf_sample_id
   )
 
   return(df)
