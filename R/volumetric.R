@@ -2,7 +2,7 @@
 
 #' @export
 volumetric <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
-  ids <- handle_ids(ids)
+  ids <- handle_ids(n, ids)
   visit_ids <- handle_ids(n, visit_ids)
 
   assessment_performed <- sample_yes_no(n)
@@ -10,7 +10,7 @@ volumetric <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   not_performed <- assessment_performed == "No"
 
   date_of_mri <- random_date(n, which_na = not_performed)
-  assessment_date <- date_of_mri + sample(c(1:5, n, replace = TRUE))
+  assessment_date <- date_of_mri + sample(1:5, n, replace = TRUE)
 
   reason_not_performed <- reason_not_collected(n, which_na = performed)
 

@@ -32,7 +32,23 @@ mockup_flanker <- flanker(N, visit = "V1", ids = patient_ids, visit_ids = visit_
 
 mockup_dot_counting <- dot_counting(N, visit = "V1", ids = patient_ids, visit_ids = visit_1_ids)
 
+mockup_vital_signs_1 <- vital_signs(N, visit = "V1", ids = patient_ids, visit_ids = visit_1_ids)
+mockup_vital_signs_2 <- vital_signs(N, visit = "V2", ids = patient_ids, visit_ids = visit_2_ids)
+mockup_vital_signs_3 <- vital_signs(N, visit = "V3", ids = patient_ids, visit_ids = visit_3_ids)
+mockup_vital_signs <- bind_rows(mockup_vital_signs_1, mockup_vital_signs_2, mockup_vital_signs_3)
+
+mockup_volumetric <- volumetric(N, visit = "V1", ids = patient_ids, visit_ids = visit_1_ids)
+
 
 write_csv(mockup_socio_demographics, "inst/mockup_data/socio_demographics.csv")
 write_csv(mockup_cdr, "inst/mockup_data/cdr.csv")
+write_csv(mockup_rbans, "inst/mockup_data/rbans.csv")
+write_csv(mockup_apoe, "inst/mockup_data/apoe.csv")
+write_csv(mockup_csf, "inst/mockup_data/csf.csv")
+write_csv(mockup_four_mountains, "inst/mockup_data/four_mountains.csv")
+write_csv(mockup_flanker, "inst/mockup_data/flanker.csv")
+write_csv(mockup_dot_counting, "inst/mockup_data/dot_counting.csv")
+write_csv(mockup_vital_signs, "inst/mockup_data/vital_signs.csv")
+write_csv(mockup_volumetric, "inst/mockup_data/volumetric.csv")
+
 
