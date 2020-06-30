@@ -1,8 +1,9 @@
 
 
 #' @export
-volumetric <- function(n, visit = "V1", ids = NULL) {
+volumetric <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(ids)
+  visit_ids <- handle_ids(n, visit_ids)
 
   assessment_performed <- sample_yes_no(n)
   performed <- assessment_performed == "Yes"
@@ -16,6 +17,7 @@ volumetric <- function(n, visit = "V1", ids = NULL) {
 
   df <- data.frame(
     patient_id = ids,
+    visit_id = visit_ids,
     visit = visit,
     date_of_mri = date_of_mri,
     LBV = sample_numeric(n),

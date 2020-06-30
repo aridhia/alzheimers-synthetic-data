@@ -1,6 +1,7 @@
 #' @export
-four_mountains <- function(n, visit = "V1", ids = NULL) {
+four_mountains <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
+  visit_ids <- handle_ids(n, visit_ids)
 
   assessment_performed <- sample_yes_no(n)
   performed <- which(assessment_performed == "Yes")
@@ -86,6 +87,7 @@ four_mountains <- function(n, visit = "V1", ids = NULL) {
 
   df <- data.frame(
     patient_id = ids,
+    visit_id = visit_ids,
     visit = visit,
     fms_t1_choice = fms_t1_choice,
     fms_t1_rt = fms_t1_rt,

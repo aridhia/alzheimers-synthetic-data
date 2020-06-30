@@ -1,6 +1,7 @@
 #' @export
-mmse <- function(n, visit = "V1", ids = NULL) {
+mmse <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
+  visit_ids <- handle_ids(n, visit_ids)
 
   assessment_performed <- sample_yes_no(n)
   performed <- which(assessment_performed == "Yes")
@@ -11,6 +12,7 @@ mmse <- function(n, visit = "V1", ids = NULL) {
 
   df <- data.frame(
     patient_id = ids,
+    visit_id = visit_ids,
     visit = visit,
     mmse_total = sample_mmse(n, which_na = not_performed),
     mmse_calculation_1 = sample_mmse(n, which_na = not_performed),

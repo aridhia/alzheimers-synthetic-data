@@ -1,7 +1,8 @@
 
 #' @export
-rbans <- function(n, visit = "V1", ids = NULL) {
+rbans <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
+  visit_ids <- handle_ids(n, visit_ids)
 
   assessment_performed <- sample_yes_no(n)
   performed <- which(assessment_performed == "Yes")
@@ -13,6 +14,7 @@ rbans <- function(n, visit = "V1", ids = NULL) {
 
   df <- data.frame(
     patient_id = ids,
+    visit_id = visit_ids,
     visit = visit,
     rbans_total_scale = sample_rbans(n, which_na = not_performed),
     rbans_sum_of_index = sample_rbans(n, which_na = not_performed),

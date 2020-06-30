@@ -1,7 +1,8 @@
 
 #' @export
-vital_signs <- function(n, visit = "V1", ids = NULL) {
+vital_signs <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
+  visit_ids <- handle_ids(n, visit_ids)
 
   vital_signs_collected <- sample_yn(n)
   collected <- which(vital_signs_collected == "Y")
@@ -12,6 +13,7 @@ vital_signs <- function(n, visit = "V1", ids = NULL) {
 
   df <- data.frame(
     patient_id = ids,
+    visit_id = visit_ids,
     visit = visit,
     vital_signs_collected = vital_signs_collected,
     reason_not_collected = reason_not_collected,

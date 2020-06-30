@@ -1,7 +1,8 @@
 
 #' @export
-cdr <- function(n, visit = "V1", ids = NULL) {
+cdr <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
+  visit_ids <- handle_ids(n, visit_ids)
 
   assessment_performed <- sample_yes_no(n)
   performed <- which(assessment_performed == "Yes")
@@ -24,6 +25,7 @@ cdr <- function(n, visit = "V1", ids = NULL) {
 
   df <- data.frame(
     patient_id = ids,
+    visit_id = visit_ids,
     visit = visit,
     cdr_global_score = cdr_global_score,
     cdr_sum_of_box = cdr_sum_of_box,

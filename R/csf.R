@@ -1,7 +1,8 @@
 
 #' @export
-csf <- function(n, visit = "V1", ids = NULL) {
+csf <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
+  visit_ids <- handle_ids(n, visit_ids)
 
   csf_sample_collected <- sample_yn(n, prob = c(0.9, 0.1))
   collected <- which(csf_sample_collected == "Y")
@@ -17,6 +18,7 @@ csf <- function(n, visit = "V1", ids = NULL) {
 
   df <- data.frame(
     patient_id = ids,
+    visit_id = visit_ids,
     visit = visit,
     ptau_result = ptau_result,
     ttau_result = ttau_result,
