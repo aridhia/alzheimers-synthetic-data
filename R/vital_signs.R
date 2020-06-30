@@ -11,6 +11,10 @@ vital_signs <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
   reason_not_collected <- reason_not_collected(n, which_na = collected)
   date_collected <- random_date(n, which_na = not_collected)
 
+  height <- sample_height(n)
+  weight <- sample_weight(n)
+  hip_circumference <- sample_hip_circumference(n, height, weight)
+
   df <- data.frame(
     patient_id = ids,
     visit_id = visit_ids,
@@ -18,9 +22,9 @@ vital_signs <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
     vital_signs_collected = vital_signs_collected,
     reason_not_collected = reason_not_collected,
     date_collected = date_collected,
-    height = sample_numeric(n),
-    weight = sample_numeric(n),
-    hip_circumference = sample_numeric(n),
+    height = height,
+    weight = weight,
+    hip_circumference = hip_circumference,
     waist_circumference = sample_numeric(n),
     systolic_bp = sample_numeric(n),
     diastolic_bp = sample_numeric(n),
@@ -43,6 +47,8 @@ sample_hip_circumference <- function(n, height = NULL, weight = NULL) {
   if(is.null(height) && is.null(weight)) {
     rnorm(n, mean = 105, sd = 10)
   }
+
+  (115 + rnorm(n, sd = 4.5)) + (-0.36 + rnorm(n , sd = 0.03)) * height + (0.62 + rnorm(n, sd = 0.02)) * weight
 }
 
 
