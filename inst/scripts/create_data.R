@@ -1,5 +1,6 @@
 library(dplyr)
 library(readr)
+library(alzheimersSyntheticData)
 
 N <- 1000
 
@@ -25,11 +26,11 @@ mockup_apoe <- apoe(N, visit = "V1", ids = patient_ids)
 
 mockup_csf <- csf(N, visit = "V1", ids = patient_ids, visit_ids = visit_1_ids)
 
-mockup_four_mountains <- four_mountains(N, visit = "V1", ids = patient_ids, visit_ids = visit_ids_1)
+mockup_four_mountains <- four_mountains(N, visit = "V1", ids = patient_ids, visit_ids = visit_1_ids)
 
-mockup_flanker <- flanker(N, visit = "V1", ids = patient_ids, visit_ids = visit_ids_1)
+mockup_flanker <- flanker(N, visit = "V1", ids = patient_ids, visit_ids = visit_1_ids)
 
-mockup_dot_counting <- dot_counting(N, visit = "V1", ids = patient_ids, visit_ids = visit_ids_1)
+mockup_dot_counting <- dot_counting(N, visit = "V1", ids = patient_ids, visit_ids = visit_1_ids)
 
 
 write_csv(mockup_socio_demographics, "inst/mockup_data/socio_demographics.csv")
