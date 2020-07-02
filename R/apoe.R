@@ -1,9 +1,9 @@
 
 #' @export
-apoe <- function(n, visit = "V1", ids = NULL) {
+apoe <- function(n, visit = "V1", missing = 0.1, ids = NULL) {
   ids <- handle_ids(n, ids)
 
-  apoe_sample_collected <- sample_yn(n, prob = c(0.9, 0.1))
+  apoe_sample_collected <- sample_yn(n, prob = c(1 - missing, missing))
   collected <- which(apoe_sample_collected == "Y")
   not_collected <- which(apoe_sample_collected == "N")
 

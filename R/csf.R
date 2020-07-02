@@ -1,10 +1,10 @@
 
 #' @export
-csf <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
+csf <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
   visit_ids <- handle_ids(n, visit_ids)
 
-  csf_sample_collected <- sample_yn(n, prob = c(0.9, 0.1))
+  csf_sample_collected <- sample_yn(n, prob = c(1 - missing, missing))
   collected <- which(csf_sample_collected == "Y")
   not_collected <- which(csf_sample_collected == "N")
 

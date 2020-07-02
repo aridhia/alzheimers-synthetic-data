@@ -1,10 +1,10 @@
 
 #' @export
-vital_signs <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
+vital_signs <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
   visit_ids <- handle_ids(n, visit_ids)
 
-  vital_signs_collected <- sample_yn(n)
+  vital_signs_collected <- sample_yn(n, prob = c(1 - missing, missing))
   collected <- which(vital_signs_collected == "Y")
   not_collected <- which(vital_signs_collected == "N")
 

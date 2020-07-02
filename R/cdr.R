@@ -1,10 +1,10 @@
 
 #' @export
-cdr <- function(n, visit = "V1", ids = NULL, visit_ids = NULL) {
+cdr <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
   visit_ids <- handle_ids(n, visit_ids)
 
-  assessment_performed <- sample_yes_no(n)
+  assessment_performed <- sample_yes_no(n, prob = c(1 - missing, missing))
   performed <- which(assessment_performed == "Yes")
   not_performed <- which(assessment_performed == "No")
 
