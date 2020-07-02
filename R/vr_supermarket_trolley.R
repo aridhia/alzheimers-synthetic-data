@@ -9,7 +9,7 @@ vr_supermarket_trolley <- function(n, visit = "V1", missing = 0.1, ids = NULL, v
   not_performed <- which(assessment_performed == "No")
 
   assessment_date <- random_date(n, which_na = not_performed)
-  reason_not_performed <- reason_not_collected(n, which_na = not_performed)
+  reason_not_performed <- reason_not_collected(n, which_na = performed)
 
   scores_1_7 <- data.frame(
     smt_1_score = sample_01(n, which_na = not_performed),
