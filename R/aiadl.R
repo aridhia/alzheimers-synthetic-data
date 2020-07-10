@@ -49,7 +49,7 @@ sample_aiadl <- function(n, which_na = c()) {
 }
 
 sample_aiadl_a <- function(n, which_na = c()) {
-  x <- sample(c(0, 1, 2), n, replace = TRUE)
+  x <- sample(c(0, 1, 2, 3, 4), n, replace = TRUE)
   x <- remove_indices(x, which_na)
   return(x)
 }
