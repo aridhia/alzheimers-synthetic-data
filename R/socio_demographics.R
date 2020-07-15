@@ -61,8 +61,10 @@ sample_age_months <- function(n) {
   sample(c(1:12), n, replace = TRUE)
 }
 
-sample_age_years <- function(n, min_age = 50, max_age = 90) {
-  sample(min_age:max_age, n, replace = TRUE)
+sample_age_years <- function(n, min_age = 50, max_age = 90, which_na = c()) {
+  x <- sample(min_age:max_age, n, replace = TRUE)
+  x <- remove_indices(x, which_na)
+  return(x)
 }
 
 sample_years_education <- function(n, min_years = 10, max_years = 20) {

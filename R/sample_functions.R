@@ -17,8 +17,10 @@ sample_yn <- function(n, prob = c(0.5, 0.5)) {
   sample(c("Y", "N"), size = n, replace = TRUE, prob = prob)
 }
 
-sample_yes_no <- function(n, prob = c(0.5, 0.5)) {
-  sample(c("Yes", "No"), size = n, replace = TRUE, prob = prob)
+sample_yes_no <- function(n, prob = c(0.5, 0.5), which_na = c()) {
+  x <- sample(c("Yes", "No"), size = n, replace = TRUE, prob = prob)
+  x <- remove_indices(x, which_na)
+  return(x)
 }
 
 reason_not_collected <- function(n, prob = rep(0.25, 4), which_na = c()) {
