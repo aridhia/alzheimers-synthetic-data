@@ -2,6 +2,11 @@ library(dplyr)
 library(readr)
 library(alzheimersSyntheticData)
 
+
+# Set seed for reproducibility
+set.seed(42)
+
+
 N <- 1000
 
 patient_ids <- 1:N
