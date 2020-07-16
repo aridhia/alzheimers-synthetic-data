@@ -29,6 +29,6 @@ Clone the repo using:
 4. Navigate to the `Build` tab in R-Studio.
 5. Click `Install and Restart` to install the library and restart the R Console.
 6. Execute `inst/scripts/create_data.R` to generate data.
-  - The number of synthetic data entries in the dataset can be modified by altering the `N` variable in `inst/scripts/create_data.R`.
-  - Different datasets can be produced by modifying the random seed at the beginning of `inst/scripts/create_data.R`.
+    - The number of synthetic data entries in the dataset can be modified by altering the `N` variable in `inst/scripts/create_data.R`.
+    - Different datasets can be produced by modifying the random seed at the beginning of `inst/scripts/create_data.R`.
 7. The data appears in the `inst/mockup_data/` folder as various .csv files relating to different tables in the dataset.
