@@ -1,119 +1,128 @@
-
 {
-  "datasets": [
-    {
-      "catalogue": {
-        "id": "APOE-Synthetic",
-        "title": "Synthetic APOE Data",
-        "description": "",
-        "creator": "Harry Peaker",
-        "contactPoint": "harry.peaker@aridhia.com",
-        "licence": "",
-        "versionInfo": "",
-        "keyword": [""],
-        "publisher": {
-          "name": "",
-          "url": ""
-        }
-      },
-      "dictionaries": [
+  "datasets": {
+    "catalogue": {
+      "id": "apoe_sample",
+      "title": "APOE",
+      "description": "",
+      "creator": "Harry Peaker",
+      "contactPoint": "harry.peaker@aridhia.com",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "apoe_sample",
+      "fields": [
         {
-          "id": "APOE",
-          "fields": [
-            {
-              "description": "",
-              "name": "patient_id",
-              "label": "",
-              "type": "",
-              "constraints": ""
-            },
-            {
-              "description": "",
-              "name": "visit",
-              "label": "",
-              "type": "",
-              "constraints": ""
-            },
-            {
-              "description": "",
-              "name": "apoe_result",
-              "label": "",
-              "type": "",
-              "constraints": "APOE_RESULT"
-            },
-            {
-              "description": "",
-              "name": "apoe_sample_collected",
-              "label": "",
-              "type": "",
-              "constraints": "SAMPLE_COLLECTED"
-            },
-            {
-              "description": "",
-              "name": "apoe_sample_date",
-              "label": "",
-              "type": "",
-              "constraints": ""
-            },
-            {
-              "description": "",
-              "name": "apoe_reason_not_collected",
-              "label": "",
-              "type": "",
-              "constraints": "REASON_NOT_COLLECTED"
-            },
-            {
-              "description": "",
-              "name": "apoe_blood_sample_id",
-              "label": "",
-              "type": "",
-              "constraints": ""
-            }
-          ],
-          "lookups": [
-            {
-              "APOE_RESULT": [
-                {
-                  "description": "",
-                  "name": ""
-                },
-                {
-                  "description": "",
-                  "name": ""
-                },
-                {
-                  "description": "",
-                  "name": ""
-                }
-              ]
-            },
-            {
-              "SAMPLE_COLLECTED": [
-                {
-                  "description": "",
-                  "name": ""
-                },
-                {
-                  "description": "",
-                  "name": ""
-                }
-              ]
-            },
-            {
-              "REASON_NOT_COLLECTED": [
-                {
-                  "description": "",
-                  "name": ""
-                },
-                {
-                  "description": "",
-                  "name": ""
-                }
-              ]
-            }
-          ]
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "apoe_result",
+          "name": "apoe_result",
+          "label": "apoe_result",
+          "type": "",
+          "constraints": "APOE_RESULT"
+        },
+        {
+          "description": "apoe_sample_collected",
+          "name": "apoe_sample_collected",
+          "label": "apoe_sample_collected",
+          "type": "",
+          "constraints": "APOE_SAMPLE_COLLECTED"
+        },
+        {
+          "description": "apoe_sample_date",
+          "name": "apoe_sample_date",
+          "label": "apoe_sample_date",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "apoe_reason_not_collected",
+          "name": "apoe_reason_not_collected",
+          "label": "apoe_reason_not_collected",
+          "type": "",
+          "constraints": "APOE_REASON_NOT_COLLECTED"
+        },
+        {
+          "description": "apoe_blood_sample_id",
+          "name": "apoe_blood_sample_id",
+          "label": "apoe_blood_sample_id",
+          "type": "",
+          "constraints": ""
         }
-      ]
+      ],
+      "lookups": {
+        "APOE_RESULT": [
+          {
+            "description": "e3/e4",
+            "name": "e3/e4"
+          },
+          {
+            "description": "e3/e3",
+            "name": "e3/e3"
+          },
+          {
+            "description": "e2/e3",
+            "name": "e2/e3"
+          },
+          {
+            "description": "e4/e4",
+            "name": "e4/e4"
+          },
+          {
+            "description": "e2/e2",
+            "name": "e2/e2"
+          },
+          {
+            "description": "e2/e4",
+            "name": "e2/e4"
+          }
+        ],
+        "APOE_SAMPLE_COLLECTED": [
+          {
+            "description": "Y",
+            "name": "Y"
+          },
+          {
+            "description": "N",
+            "name": "N"
+          }
+        ],
+        "APOE_REASON_NOT_COLLECTED": [
+          {
+            "description": "Other reasons",
+            "name": "Other reasons"
+          },
+          {
+            "description": "Mentally unwell",
+            "name": "Mentally unwell"
+          },
+          {
+            "description": "Reasons external to participant",
+            "name": "Reasons external to participant"
+          },
+          {
+            "description": "Physically unwell",
+            "name": "Physically unwell"
+          }
+        ]
+      }
     }
-  ]
+  }
 }
