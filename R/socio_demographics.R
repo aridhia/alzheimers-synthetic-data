@@ -1,3 +1,5 @@
+
+#' @title Socio-Demographics
 #' @export
 socio_demographics <- function(n, ids = NULL) {
   ids <- handle_ids(n, ids)

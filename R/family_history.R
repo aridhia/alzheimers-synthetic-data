@@ -1,3 +1,5 @@
+
+#' @title Family History
 #' @export
 family_history <- function(n, missing = 0.1, ids = NULL) {
   ids <- handle_ids(n, ids)

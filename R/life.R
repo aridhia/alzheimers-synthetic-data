@@ -1,3 +1,5 @@
+
+#' @title Lifestyle
 #' @export
 life <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
