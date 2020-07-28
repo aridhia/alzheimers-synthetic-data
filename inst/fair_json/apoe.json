@@ -1,0 +1,119 @@
+
+{
+  "datasets": [
+    {
+      "catalogue": {
+        "id": "APOE-Synthetic",
+        "title": "Synthetic APOE Data",
+        "description": "",
+        "creator": "Harry Peaker",
+        "contactPoint": "harry.peaker@aridhia.com",
+        "licence": "",
+        "versionInfo": "",
+        "keyword": [""],
+        "publisher": {
+          "name": "",
+          "url": ""
+        }
+      },
+      "dictionaries": [
+        {
+          "id": "APOE",
+          "fields": [
+            {
+              "description": "",
+              "name": "patient_id",
+              "label": "",
+              "type": "",
+              "constraints": ""
+            },
+            {
+              "description": "",
+              "name": "visit",
+              "label": "",
+              "type": "",
+              "constraints": ""
+            },
+            {
+              "description": "",
+              "name": "apoe_result",
+              "label": "",
+              "type": "",
+              "constraints": "APOE_RESULT"
+            },
+            {
+              "description": "",
+              "name": "apoe_sample_collected",
+              "label": "",
+              "type": "",
+              "constraints": "SAMPLE_COLLECTED"
+            },
+            {
+              "description": "",
+              "name": "apoe_sample_date",
+              "label": "",
+              "type": "",
+              "constraints": ""
+            },
+            {
+              "description": "",
+              "name": "apoe_reason_not_collected",
+              "label": "",
+              "type": "",
+              "constraints": "REASON_NOT_COLLECTED"
+            },
+            {
+              "description": "",
+              "name": "apoe_blood_sample_id",
+              "label": "",
+              "type": "",
+              "constraints": ""
+            }
+          ],
+          "lookups": [
+            {
+              "APOE_RESULT": [
+                {
+                  "description": "",
+                  "name": ""
+                },
+                {
+                  "description": "",
+                  "name": ""
+                },
+                {
+                  "description": "",
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "SAMPLE_COLLECTED": [
+                {
+                  "description": "",
+                  "name": ""
+                },
+                {
+                  "description": "",
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "REASON_NOT_COLLECTED": [
+                {
+                  "description": "",
+                  "name": ""
+                },
+                {
+                  "description": "",
+                  "name": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
