@@ -1,4 +1,14 @@
 
+#' @title Apolipoprotein E (APOE)
+#' @description Create sample data for the results of an APOE test on blood samples
+#' @param n Integer number of participants to create data for
+#' @param visit The name of the visit to create data for as a character string
+#' @param missing The proportion of participants for which a blood sample was not collected
+#' @param ids Optional vector of participant IDs
+#' @return A data.frame
+#' @examples
+#' apoe(10)
+#' apoe(10, ids = letters[1:10])
 #' @export
 apoe <- function(n, visit = "V1", missing = 0.1, ids = NULL) {
   ids <- handle_ids(n, ids)

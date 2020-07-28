@@ -1,4 +1,15 @@
 
+#' @title Advanced Instrumental Activities Of Daily Living
+#' @description Create sample data for the Advanced Instrumental Activities Of Daily Living questionnaire
+#' @param n Integer number of participants to create data for
+#' @param visit The name of the visit to create data for as a character string
+#' @param missing The proportion of participants for which the questionnaire was not completed
+#' @param ids Optional vector of participant IDs
+#' @param visit_ids Optional vector of visit IDs
+#' @return A data.frame
+#' @examples
+#' aiadl(10)
+#'
 #' @importFrom dplyr bind_cols
 #' @export
 aiadl <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
