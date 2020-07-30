@@ -1,0 +1,283 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "mmse_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "mmse_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit_id",
+          "name": "visit_id",
+          "label": "visit_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_total",
+          "name": "mmse_total",
+          "label": "mmse_total",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_calculation_1",
+          "name": "mmse_calculation_1",
+          "label": "mmse_calculation_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_calculation_2",
+          "name": "mmse_calculation_2",
+          "label": "mmse_calculation_2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_calculation_3",
+          "name": "mmse_calculation_3",
+          "label": "mmse_calculation_3",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_calculation_4",
+          "name": "mmse_calculation_4",
+          "label": "mmse_calculation_4",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_calculation_5",
+          "name": "mmse_calculation_5",
+          "label": "mmse_calculation_5",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_comprehension_1",
+          "name": "mmse_comprehension_1",
+          "label": "mmse_comprehension_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_comprehension_2",
+          "name": "mmse_comprehension_2",
+          "label": "mmse_comprehension_2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_comprehension_3",
+          "name": "mmse_comprehension_3",
+          "label": "mmse_comprehension_3",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_drawing_1",
+          "name": "mmse_drawing_1",
+          "label": "mmse_drawing_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_naming_1",
+          "name": "mmse_naming_1",
+          "label": "mmse_naming_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_naming_2",
+          "name": "mmse_naming_2",
+          "label": "mmse_naming_2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_1",
+          "name": "mmse_orientation_1",
+          "label": "mmse_orientation_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_2",
+          "name": "mmse_orientation_2",
+          "label": "mmse_orientation_2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_3",
+          "name": "mmse_orientation_3",
+          "label": "mmse_orientation_3",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_4",
+          "name": "mmse_orientation_4",
+          "label": "mmse_orientation_4",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_5",
+          "name": "mmse_orientation_5",
+          "label": "mmse_orientation_5",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_6",
+          "name": "mmse_orientation_6",
+          "label": "mmse_orientation_6",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_7",
+          "name": "mmse_orientation_7",
+          "label": "mmse_orientation_7",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_8",
+          "name": "mmse_orientation_8",
+          "label": "mmse_orientation_8",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_9",
+          "name": "mmse_orientation_9",
+          "label": "mmse_orientation_9",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_orientation_10",
+          "name": "mmse_orientation_10",
+          "label": "mmse_orientation_10",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_reading_1",
+          "name": "mmse_reading_1",
+          "label": "mmse_reading_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_recall_1",
+          "name": "mmse_recall_1",
+          "label": "mmse_recall_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_recall_2",
+          "name": "mmse_recall_2",
+          "label": "mmse_recall_2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_recall_3",
+          "name": "mmse_recall_3",
+          "label": "mmse_recall_3",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_registration_1",
+          "name": "mmse_registration_1",
+          "label": "mmse_registration_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_registration_2",
+          "name": "mmse_registration_2",
+          "label": "mmse_registration_2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_registration_3",
+          "name": "mmse_registration_3",
+          "label": "mmse_registration_3",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_repetition_1",
+          "name": "mmse_repetition_1",
+          "label": "mmse_repetition_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "mmse_writing_1",
+          "name": "mmse_writing_1",
+          "label": "mmse_writing_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_performed",
+          "name": "assessment_performed",
+          "label": "assessment_performed",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_date",
+          "name": "assessment_date",
+          "label": "assessment_date",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "reason_not_performed",
+          "name": "reason_not_performed",
+          "label": "reason_not_performed",
+          "type": "",
+          "constraints": ""
+        }
+      ],
+      "lookups": {}
+    }
+  }
+}

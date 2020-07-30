@@ -1,0 +1,80 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "favourites_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "favourites_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit_id",
+          "name": "visit_id",
+          "label": "visit_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "fav_learn_r1_food_1",
+          "name": "fav_learn_r1_food_1",
+          "label": "fav_learn_r1_food_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "fav_learn_r1_food_1_score",
+          "name": "fav_learn_r1_food_1_score",
+          "label": "fav_learn_r1_food_1_score",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_performed",
+          "name": "assessment_performed",
+          "label": "assessment_performed",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_date",
+          "name": "assessment_date",
+          "label": "assessment_date",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "reason_not_performed",
+          "name": "reason_not_performed",
+          "label": "reason_not_performed",
+          "type": "",
+          "constraints": ""
+        }
+      ],
+      "lookups": {}
+    }
+  }
+}

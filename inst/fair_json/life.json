@@ -1,0 +1,101 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "life_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "life_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit_id",
+          "name": "visit_id",
+          "label": "visit_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "lifestyle_assessment_completed",
+          "name": "lifestyle_assessment_completed",
+          "label": "lifestyle_assessment_completed",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "reason_not_completed",
+          "name": "reason_not_completed",
+          "label": "reason_not_completed",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "current_health",
+          "name": "current_health",
+          "label": "current_health",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "physical_activity",
+          "name": "physical_activity",
+          "label": "physical_activity",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "physical_fitness",
+          "name": "physical_fitness",
+          "label": "physical_fitness",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "smoking",
+          "name": "smoking",
+          "label": "smoking",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "drug_abuse",
+          "name": "drug_abuse",
+          "label": "drug_abuse",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "drug_name",
+          "name": "drug_name",
+          "label": "drug_name",
+          "type": "",
+          "constraints": ""
+        }
+      ],
+      "lookups": {}
+    }
+  }
+}

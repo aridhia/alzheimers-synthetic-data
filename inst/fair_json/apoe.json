@@ -82,16 +82,16 @@
             "name": "e2/e3"
           },
           {
+            "description": "e2/e4",
+            "name": "e2/e4"
+          },
+          {
             "description": "e4/e4",
             "name": "e4/e4"
           },
           {
             "description": "e2/e2",
             "name": "e2/e2"
-          },
-          {
-            "description": "e2/e4",
-            "name": "e2/e4"
           }
         ],
         "APOE_SAMPLE_COLLECTED": [
@@ -106,16 +106,16 @@
         ],
         "APOE_REASON_NOT_COLLECTED": [
           {
-            "description": "Other reasons",
-            "name": "Other reasons"
-          },
-          {
             "description": "Mentally unwell",
             "name": "Mentally unwell"
           },
           {
             "description": "Reasons external to participant",
             "name": "Reasons external to participant"
+          },
+          {
+            "description": "Other reasons",
+            "name": "Other reasons"
           },
           {
             "description": "Physically unwell",

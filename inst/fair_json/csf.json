@@ -1,0 +1,154 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "csf_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "csf_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit_id",
+          "name": "visit_id",
+          "label": "visit_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "ptau_result",
+          "name": "ptau_result",
+          "label": "ptau_result",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "ttau_result",
+          "name": "ttau_result",
+          "label": "ttau_result",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "abeta_1_42_result",
+          "name": "abeta_1_42_result",
+          "label": "abeta_1_42_result",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "abeta_1_42_comments",
+          "name": "abeta_1_42_comments",
+          "label": "abeta_1_42_comments",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "csf_sample_collected",
+          "name": "csf_sample_collected",
+          "label": "csf_sample_collected",
+          "type": "",
+          "constraints": "CSF_SAMPLE_COLLECTED"
+        },
+        {
+          "description": "csf_sample_date",
+          "name": "csf_sample_date",
+          "label": "csf_sample_date",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "csf_reason_not_collected",
+          "name": "csf_reason_not_collected",
+          "label": "csf_reason_not_collected",
+          "type": "",
+          "constraints": "CSF_REASON_NOT_COLLECTED"
+        },
+        {
+          "description": "ptau_reason_not_analysed",
+          "name": "ptau_reason_not_analysed",
+          "label": "ptau_reason_not_analysed",
+          "type": "",
+          "constraints": "PTAU_REASON_NOT_ANALYSED"
+        },
+        {
+          "description": "ttau_reason_not_analysed",
+          "name": "ttau_reason_not_analysed",
+          "label": "ttau_reason_not_analysed",
+          "type": "",
+          "constraints": "TTAU_REASON_NOT_ANALYSED"
+        },
+        {
+          "description": "abeta_1_42_reason_not_analysed",
+          "name": "abeta_1_42_reason_not_analysed",
+          "label": "abeta_1_42_reason_not_analysed",
+          "type": "",
+          "constraints": "ABETA_1_42_REASON_NOT_ANALYSED"
+        },
+        {
+          "description": "csf_sample_id",
+          "name": "csf_sample_id",
+          "label": "csf_sample_id",
+          "type": "",
+          "constraints": ""
+        }
+      ],
+      "lookups": {
+        "CSF_SAMPLE_COLLECTED": [
+          {
+            "description": "N",
+            "name": "N"
+          },
+          {
+            "description": "Y",
+            "name": "Y"
+          }
+        ],
+        "CSF_REASON_NOT_COLLECTED": [
+          {
+            "description": "Reasons external to participant",
+            "name": "Reasons external to participant"
+          },
+          {
+            "description": "Physically unwell",
+            "name": "Physically unwell"
+          },
+          {
+            "description": "Mentally unwell",
+            "name": "Mentally unwell"
+          },
+          {
+            "description": "Other reasons",
+            "name": "Other reasons"
+          }
+        ],
+        "PTAU_REASON_NOT_ANALYSED": [],
+        "TTAU_REASON_NOT_ANALYSED": [],
+        "ABETA_1_42_REASON_NOT_ANALYSED": []
+      }
+    }
+  }
+}

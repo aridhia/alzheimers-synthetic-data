@@ -1,0 +1,305 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "cdr_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "cdr_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit_id",
+          "name": "visit_id",
+          "label": "visit_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "cdr_global_score",
+          "name": "cdr_global_score",
+          "label": "cdr_global_score",
+          "type": "",
+          "constraints": "CDR_GLOBAL_SCORE"
+        },
+        {
+          "description": "cdr_sum_of_box",
+          "name": "cdr_sum_of_box",
+          "label": "cdr_sum_of_box",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "cdr_community_affairs",
+          "name": "cdr_community_affairs",
+          "label": "cdr_community_affairs",
+          "type": "",
+          "constraints": "CDR_COMMUNITY_AFFAIRS"
+        },
+        {
+          "description": "cdr_home_hobbies",
+          "name": "cdr_home_hobbies",
+          "label": "cdr_home_hobbies",
+          "type": "",
+          "constraints": "CDR_HOME_HOBBIES"
+        },
+        {
+          "description": "cdr_judgement",
+          "name": "cdr_judgement",
+          "label": "cdr_judgement",
+          "type": "",
+          "constraints": "CDR_JUDGEMENT"
+        },
+        {
+          "description": "cdr_memory",
+          "name": "cdr_memory",
+          "label": "cdr_memory",
+          "type": "",
+          "constraints": "CDR_MEMORY"
+        },
+        {
+          "description": "cdr_orientation",
+          "name": "cdr_orientation",
+          "label": "cdr_orientation",
+          "type": "",
+          "constraints": "CDR_ORIENTATION"
+        },
+        {
+          "description": "cdr_personal_care",
+          "name": "cdr_personal_care",
+          "label": "cdr_personal_care",
+          "type": "",
+          "constraints": "CDR_PERSONAL_CARE"
+        },
+        {
+          "description": "assessment_performed",
+          "name": "assessment_performed",
+          "label": "assessment_performed",
+          "type": "",
+          "constraints": "ASSESSMENT_PERFORMED"
+        },
+        {
+          "description": "assessment_date",
+          "name": "assessment_date",
+          "label": "assessment_date",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "reason_not_performed",
+          "name": "reason_not_performed",
+          "label": "reason_not_performed",
+          "type": "",
+          "constraints": "REASON_NOT_PERFORMED"
+        }
+      ],
+      "lookups": {
+        "CDR_GLOBAL_SCORE": [
+          {
+            "description": 2,
+            "name": 2
+          },
+          {
+            "description": 1,
+            "name": 1
+          },
+          {
+            "description": 0,
+            "name": 0
+          },
+          {
+            "description": 3,
+            "name": 3
+          },
+          {
+            "description": 0.5,
+            "name": 0.5
+          }
+        ],
+        "CDR_COMMUNITY_AFFAIRS": [
+          {
+            "description": 0,
+            "name": 0
+          },
+          {
+            "description": 3,
+            "name": 3
+          },
+          {
+            "description": 2,
+            "name": 2
+          },
+          {
+            "description": 1,
+            "name": 1
+          },
+          {
+            "description": 0.5,
+            "name": 0.5
+          }
+        ],
+        "CDR_HOME_HOBBIES": [
+          {
+            "description": 0.5,
+            "name": 0.5
+          },
+          {
+            "description": 3,
+            "name": 3
+          },
+          {
+            "description": 0,
+            "name": 0
+          },
+          {
+            "description": 2,
+            "name": 2
+          },
+          {
+            "description": 1,
+            "name": 1
+          }
+        ],
+        "CDR_JUDGEMENT": [
+          {
+            "description": 1,
+            "name": 1
+          },
+          {
+            "description": 0.5,
+            "name": 0.5
+          },
+          {
+            "description": 3,
+            "name": 3
+          },
+          {
+            "description": 2,
+            "name": 2
+          },
+          {
+            "description": 0,
+            "name": 0
+          }
+        ],
+        "CDR_MEMORY": [
+          {
+            "description": 2,
+            "name": 2
+          },
+          {
+            "description": 1,
+            "name": 1
+          },
+          {
+            "description": 0,
+            "name": 0
+          },
+          {
+            "description": 3,
+            "name": 3
+          },
+          {
+            "description": 0.5,
+            "name": 0.5
+          }
+        ],
+        "CDR_ORIENTATION": [
+          {
+            "description": 2,
+            "name": 2
+          },
+          {
+            "description": 3,
+            "name": 3
+          },
+          {
+            "description": 0.5,
+            "name": 0.5
+          },
+          {
+            "description": 0,
+            "name": 0
+          },
+          {
+            "description": 1,
+            "name": 1
+          }
+        ],
+        "CDR_PERSONAL_CARE": [
+          {
+            "description": 2,
+            "name": 2
+          },
+          {
+            "description": 1,
+            "name": 1
+          },
+          {
+            "description": 0,
+            "name": 0
+          },
+          {
+            "description": 0.5,
+            "name": 0.5
+          },
+          {
+            "description": 3,
+            "name": 3
+          }
+        ],
+        "ASSESSMENT_PERFORMED": [
+          {
+            "description": "Yes",
+            "name": "Yes"
+          },
+          {
+            "description": "No",
+            "name": "No"
+          }
+        ],
+        "REASON_NOT_PERFORMED": [
+          {
+            "description": "Physically unwell",
+            "name": "Physically unwell"
+          },
+          {
+            "description": "Reasons external to participant",
+            "name": "Reasons external to participant"
+          },
+          {
+            "description": "Other reasons",
+            "name": "Other reasons"
+          },
+          {
+            "description": "Mentally unwell",
+            "name": "Mentally unwell"
+          }
+        ]
+      }
+    }
+  }
+}

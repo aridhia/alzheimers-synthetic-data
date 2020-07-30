@@ -1,0 +1,283 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "gds_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "gds_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit_id",
+          "name": "visit_id",
+          "label": "visit_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_total",
+          "name": "gds_total",
+          "label": "gds_total",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_1",
+          "name": "gds_1",
+          "label": "gds_1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_2",
+          "name": "gds_2",
+          "label": "gds_2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_3",
+          "name": "gds_3",
+          "label": "gds_3",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_4",
+          "name": "gds_4",
+          "label": "gds_4",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_5",
+          "name": "gds_5",
+          "label": "gds_5",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_6",
+          "name": "gds_6",
+          "label": "gds_6",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_7",
+          "name": "gds_7",
+          "label": "gds_7",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_8",
+          "name": "gds_8",
+          "label": "gds_8",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_9",
+          "name": "gds_9",
+          "label": "gds_9",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_10",
+          "name": "gds_10",
+          "label": "gds_10",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_11",
+          "name": "gds_11",
+          "label": "gds_11",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_12",
+          "name": "gds_12",
+          "label": "gds_12",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_13",
+          "name": "gds_13",
+          "label": "gds_13",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_14",
+          "name": "gds_14",
+          "label": "gds_14",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_15",
+          "name": "gds_15",
+          "label": "gds_15",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_16",
+          "name": "gds_16",
+          "label": "gds_16",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_17",
+          "name": "gds_17",
+          "label": "gds_17",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_18",
+          "name": "gds_18",
+          "label": "gds_18",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_19",
+          "name": "gds_19",
+          "label": "gds_19",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_20",
+          "name": "gds_20",
+          "label": "gds_20",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_21",
+          "name": "gds_21",
+          "label": "gds_21",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_22",
+          "name": "gds_22",
+          "label": "gds_22",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_23",
+          "name": "gds_23",
+          "label": "gds_23",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_24",
+          "name": "gds_24",
+          "label": "gds_24",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_25",
+          "name": "gds_25",
+          "label": "gds_25",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_26",
+          "name": "gds_26",
+          "label": "gds_26",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_27",
+          "name": "gds_27",
+          "label": "gds_27",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_28",
+          "name": "gds_28",
+          "label": "gds_28",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_29",
+          "name": "gds_29",
+          "label": "gds_29",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "gds_30",
+          "name": "gds_30",
+          "label": "gds_30",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_date",
+          "name": "assessment_date",
+          "label": "assessment_date",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_performed",
+          "name": "assessment_performed",
+          "label": "assessment_performed",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "reason_not_done",
+          "name": "reason_not_done",
+          "label": "reason_not_done",
+          "type": "",
+          "constraints": ""
+        }
+      ],
+      "lookups": {}
+    }
+  }
+}

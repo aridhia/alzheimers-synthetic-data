@@ -1,0 +1,59 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "family_history_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "family_history_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "family_dementia_history",
+          "name": "family_dementia_history",
+          "label": "family_dementia_history",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "family_member",
+          "name": "family_member",
+          "label": "family_member",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "bio_relative",
+          "name": "bio_relative",
+          "label": "bio_relative",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "age_at_diagnosis",
+          "name": "age_at_diagnosis",
+          "label": "age_at_diagnosis",
+          "type": "",
+          "constraints": ""
+        }
+      ],
+      "lookups": {}
+    }
+  }
+}

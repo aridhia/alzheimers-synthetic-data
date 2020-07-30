@@ -1,0 +1,115 @@
+{
+  "datasets": {
+    "catalogue": {
+      "id": "dot_counting_sample",
+      "title": "",
+      "description": "",
+      "creator": "",
+      "contactPoint": "",
+      "licence": "",
+      "versionInfo": "",
+      "keyword": [""],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "dictionaries": {
+      "id": "dot_counting_sample",
+      "fields": [
+        {
+          "description": "patient_id",
+          "name": "patient_id",
+          "label": "patient_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit_id",
+          "name": "visit_id",
+          "label": "visit_id",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "visit",
+          "name": "visit",
+          "label": "visit",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "dotcount_t1",
+          "name": "dotcount_t1",
+          "label": "dotcount_t1",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "dotcount_t2",
+          "name": "dotcount_t2",
+          "label": "dotcount_t2",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "dotcount_t3",
+          "name": "dotcount_t3",
+          "label": "dotcount_t3",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "dotcount_t4",
+          "name": "dotcount_t4",
+          "label": "dotcount_t4",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "dotcount_t5",
+          "name": "dotcount_t5",
+          "label": "dotcount_t5",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "dotcount_t6",
+          "name": "dotcount_t6",
+          "label": "dotcount_t6",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "dotcount_total",
+          "name": "dotcount_total",
+          "label": "dotcount_total",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_performed",
+          "name": "assessment_performed",
+          "label": "assessment_performed",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "assessment_date",
+          "name": "assessment_date",
+          "label": "assessment_date",
+          "type": "",
+          "constraints": ""
+        },
+        {
+          "description": "reason_not_performed",
+          "name": "reason_not_performed",
+          "label": "reason_not_performed",
+          "type": "",
+          "constraints": ""
+        }
+      ],
+      "lookups": {}
+    }
+  }
+}
