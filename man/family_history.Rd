@@ -6,6 +6,19 @@
 \usage{
 family_history(n, missing = 0.1, ids = NULL)
 }
+\arguments{
+\item{n}{Integer number of participants to create data for}
+
+\item{missing}{The proportion of participants for which the questionnaire was not completed}
+
+\item{ids}{Optional vector of participant IDs}
+}
+\value{
+A data.frame
+}
 \description{
-Family History
+Create sample data for family history of dementia
+}
+\examples{
+family_history(10)
 }

@@ -2,6 +2,8 @@
 #' @title FAIR JSON Templates
 #' @description Create FAIR JSON templates from existing data
 #' @param df A data.frame
+#' @param dataset_name Name of the dataset to be shown in the library
+#' @param lookups Indexes of columns to create lookups for
 #' @import jsonlite
 #' @export
 fair_template <- function(df, dataset_name = as.character(substitute(df)), lookups = c(), title = "", description = "", creator = "", contactPoint = "") {

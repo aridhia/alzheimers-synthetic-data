@@ -6,6 +6,24 @@
 \usage{
 csf(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL)
 }
+\arguments{
+\item{n}{Integer number of participants to create data for}
+
+\item{visit}{The name of the visit to create data for as a character string}
+
+\item{missing}{The proportion of participants for which a CSF sample was not collected}
+
+\item{ids}{Optional vector of participant IDs}
+
+\item{visit_ids}{Optional vector of visit IDs}
+}
+\value{
+A data.frame
+}
 \description{
-CSF
+Create sample data for the results of analysis on CSF samples for amyloid beta
+}
+\examples{
+csf(10)
+
 }

@@ -1,5 +1,15 @@
 
 #' @title CSF
+#' @description Create sample data for the results of analysis on CSF samples for amyloid beta
+#' @param n Integer number of participants to create data for
+#' @param visit The name of the visit to create data for as a character string
+#' @param missing The proportion of participants for which a CSF sample was not collected
+#' @param ids Optional vector of participant IDs
+#' @param visit_ids Optional vector of visit IDs
+#' @return A data.frame
+#' @examples
+#' csf(10)
+#'
 #' @export
 csf <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
@@ -58,6 +68,7 @@ ptau <- function(n, ttau = NULL, which_na = c()) {
   return(x)
 }
 
+#' @importFrom stats rnorm runif
 #' @export
 abeta_1_42 <- function(n, apoe = NULL, which_na = c()) {
   if(is.null(apoe)) {

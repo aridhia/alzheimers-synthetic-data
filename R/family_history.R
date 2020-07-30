@@ -1,5 +1,12 @@
 
 #' @title Family History
+#' @description Create sample data for family history of dementia
+#' @param n Integer number of participants to create data for
+#' @param missing The proportion of participants for which the questionnaire was not completed
+#' @param ids Optional vector of participant IDs
+#' @return A data.frame
+#' @examples
+#' family_history(10)
 #' @export
 family_history <- function(n, missing = 0.1, ids = NULL) {
   ids <- handle_ids(n, ids)

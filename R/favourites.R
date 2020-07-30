@@ -1,5 +1,14 @@
 
 #' @title Favourites
+#' @description Create sample data for the Favourites cognitive test
+#' @param n Integer number of participants to create data for
+#' @param visit The name of the visit to create data for as a character string
+#' @param missing The proportion of participants for which the test was not completed
+#' @param ids Optional vector of participant IDs
+#' @param visit_ids Optional vector of visit IDs
+#' @return A data.frame
+#' @examples
+#' favourites(10)
 #' @export
 favourites <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)
@@ -12,8 +21,8 @@ favourites <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = N
   assessment_date <- random_date(n, which_na = not_performed)
   reason_not_performed <- reason_not_collected(n, which_na = performed)
 
-  animals <- sample_fav_animal(4, dk = FALSE)
-  foods <- sample_fav_food(4, dk = FALSE)
+  animals <- sample_fav_animal(4, dk = FALSE, replace = FALSE)
+  foods <- sample_fav_food(4, dk = FALSE, replace = FALSE)
 
   order1 <- sample(4)
   order2 <- sample(4)
@@ -26,7 +35,7 @@ favourites <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = N
   animals_delay <- animals[order_delay]
   foods_delay <- foods[order_delay]
 
-  fav_learn_r1_food_1 <- sample_fav_animal(n, which_na = not_performed)
+  fav_learn_r1_food_1 <- sample_fav_animal(n, which_na = not_performed, replace = TRUE)
   fav_learn_r1_food_1_score <- ifelse(fav_learn_r1_food_1 == animals1[1], "Correct", ifelse(fav_learn_r1_food_1 %in% animals1, "SME", "INT"))
 
 
@@ -45,17 +54,17 @@ favourites <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = N
   return(df)
 }
 
-sample_fav_animal <- function(n, which_na = c(), dk = TRUE) {
+sample_fav_animal <- function(n, which_na = c(), dk = TRUE, ...) {
   choices <- c("shark", "turtle", "wolf", "cow", "rabbit", "frog", "penguin", "pig", "monkey", "goat")
   if(dk) {
     choices <- c(choices, "DK")
   }
-  x <- sample(choices, n)
+  x <- sample(choices, n, ...)
   x <- remove_indices(x, which_na)
   return(x)
 }
 
-sample_fav_food <- function(n, which_na = c(), dk = TRUE) {
+sample_fav_food <- function(n, which_na = c(), dk = TRUE, ...) {
   choices <- c("lettuce", "coconut", "cherry", "grapes", "peas", "carrot", "tomato", "lemon", "plum", "mushroom")
   if(dk) {
     choices <- c(choices, "DK")

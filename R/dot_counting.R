@@ -1,5 +1,14 @@
 
 #' @title Dot COunting
+#' @description Create sample data for the Dot Counting cognitive test
+#' @param n Integer number of participants to create data for
+#' @param visit The name of the visit to create data for as a character string
+#' @param missing The proportion of participants for which the test was not completed
+#' @param ids Optional vector of participant IDs
+#' @param visit_ids Optional vector of visit IDs
+#' @return A data.frame
+#' @examples
+#' dot_counting(10)
 #' @export
 dot_counting <- function(n, visit = "V1", missing = 0.1, ids = NULL, visit_ids = NULL) {
   ids <- handle_ids(n, ids)

@@ -1,5 +1,8 @@
 
 #' @title Socio-Demographics
+#' @param n Integer number of participants to create data for
+#' @param ids Optional vector of participant IDs
+#' @return A data.frame
 #' @export
 socio_demographics <- function(n, ids = NULL) {
   ids <- handle_ids(n, ids)

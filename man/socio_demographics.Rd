@@ -6,6 +6,14 @@
 \usage{
 socio_demographics(n, ids = NULL)
 }
+\arguments{
+\item{n}{Integer number of participants to create data for}
+
+\item{ids}{Optional vector of participant IDs}
+}
+\value{
+A data.frame
+}
 \description{
 Socio-Demographics
 }
